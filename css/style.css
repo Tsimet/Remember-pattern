@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  body #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 100vh; }
+    body #main .row {
+      margin: 5vh 0 5vh 0;
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      height: 15vh; }
+      body #main .row .card {
+        width: 10vw;
+        border: 1px solid black;
+        font-size: 0; }
+        body #main .row .card:active {
+          background: gold; }
+      body #main .row .gold {
+        background: gold; }
+      body #main .row .red {
+        background: red; }
+      body #main .row .green {
+        background: green; }
+      body #main .row #pocni {
+        width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
